@@ -1,3 +1,7 @@
-# Coming Soon!!!
+🤖 Created By AI 🤖
+### 
 
-WIP
+# RAG-Retrieval Augmented Generation
+## Welcome to the RAG Revolution!
+
+
