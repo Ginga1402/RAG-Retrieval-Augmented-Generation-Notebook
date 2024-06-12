@@ -5,6 +5,9 @@
 ## Welcome to the RAG Revolution!
 
 
+#### RAG Enhancement Repository: Expanding Horizons through Varied Approaches
+RAG-Retrieval Augmented Generation is at the core of this repository's mission. The collection of Jupyter notebooks is dedicated to enhancing RAG through various approaches and thought processes, aiming to push the boundaries of natural language understanding and generation. 
+
 ### Introduction to RAG:
 
 Welcome to the forefront of natural language processing innovation! Retrieval Augmented Generation (RAG) represents a paradigm shift, harnessing the synergy between language models and external knowledge sources to revolutionize text generation. Let's embark on a journey to uncover the transformative power of RAG and explore its endless possibilities.
