@@ -41,39 +41,19 @@ In a world inundated with information, accuracy is paramount. RAG addresses the 
 
 2. **Reducing Hallucinations:** Gone are the days of nonsensical responses! RAG's integration of external knowledge significantly reduces the occurrence of hallucinated or irrelevant outputs.
 
+## Enhancing RAG Performance: 
 
-### Challenges in RAG Implementation
+###  Naive Rag also known as Vanilla Rag : 
 
-Embarking on the RAG journey is not without its hurdles. Let's delve into the challenges encountered at each stage of the Retrieval Augmented Generation process:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](linktobementionedhere)
 
-#### Indexing Challenges:
+![image](https://github.com/user-attachments/assets/4db4db94-795e-4657-9f07-0c7d6b2f4fac)
 
-1. **Incomplete Information** Extraction: Extracting information from images and tables within unstructured files like PDFs remains incomplete, limiting the retrieval of valuable data.
+###### Image Source : (https://www.clarifai.com/hs-fs/hubfs/rag-query-drawio%20(1)-png-2.png?width=2056&height=1334&name=rag-query-drawio%20(1)-png-2.png)
 
-2. **Suboptimal Chunking Strategies:** One-size-fits-all chunking fails to capture semantic nuances effectively, resulting in incomplete chunks lacking crucial contextual details.
+### Rag using Parent Document Retriever (PC Rag)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](linktobementionedhere)
 
-3. **Inefficiency in Indexing Structure:** The current indexing structure lacks optimization, leading to subpar retrieval functionality and hindering overall RAG effectiveness.
+![image](https://github.com/user-attachments/assets/248aaf33-8dcd-4000-a6b6-fe1614a57d0e)
 
-4. **Weak Semantic Representation:** The embedding model's semantic representation capability needs improvement, impacting data quality and retrieval accuracy.
-
-#### Retrieval Roadblocks:
-
-1. **Context Relevance:** Retrieved contexts often lack relevance and accuracy, undermining the generation of comprehensive responses.
-
-2. **Low Recall Rates:** The retrieval algorithm's low recall rate limits the retrieval of pertinent passages, hindering holistic answer generation.
-
-3. **Query Inaccuracy and Semantic Weakness:** Inaccurate queries or weak semantic representations impede valuable information retrieval, exacerbating accuracy challenges.
-
-4. **Limited Retrieval Algorithm:** Lack of versatility in the retrieval algorithm hampers diverse retrieval methods, resulting in information redundancy and repetitive content.
-
-
-#### Generation Glitches:
-
-1. **Integration Challenges:** Effectively integrating retrieved context with the ongoing generation task poses a challenge, resulting in inconsistent output quality.
-
-2. **Risk of Over-reliance:** Over-reliance on retrieved information during generation may lead to outputs that regurgitate content without adding value.
-
-3. **Potential for Incorrect Responses:** The risk of generating incorrect, irrelevant, or biased responses undermines the reliability of generated content.
-
-
-### Enhancing RAG Performance: 
+###### Image Source : (https://clusteredbytes.pages.dev/images/parent-retriever/full-ret.png)
