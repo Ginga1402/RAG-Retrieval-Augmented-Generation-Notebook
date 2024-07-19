@@ -13,6 +13,10 @@ RAG-Retrieval Augmented Generation is at the core of this repository's mission. 
 Welcome to the forefront of natural language processing innovation! Retrieval Augmented Generation (RAG) represents a paradigm shift, harnessing the synergy between language models and external knowledge sources to revolutionize text generation. Let's embark on a journey to uncover the transformative power of RAG and explore its endless possibilities.
 
 
+![image](https://github.com/user-attachments/assets/b8c08eff-888c-458f-a6de-8983d52696d5)
+
+###### Image Source: (https://miro.medium.com/v2/resize:fit:720/format:webp/1*392fzT_PzFtD-wFQlU8ITg.png)
+
 ### What is RAG?
 
 Retrieval Augmented Generation (RAG) is not just another acronym in the world of AI; it's a game-changer. Imagine infusing the intelligence of large language models (LLMs) with the vast expanse of external knowledge. RAG achieves precisely that! It seamlessly integrates pre-trained retriever and generator components to produce contextually relevant and accurate responses, setting new standards in natural language understanding and generation.
