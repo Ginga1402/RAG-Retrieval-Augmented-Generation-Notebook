@@ -45,7 +45,7 @@ In a world inundated with information, accuracy is paramount. RAG addresses the 
 
 ##  Naive Rag also known as Vanilla Rag : 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](linktobementionedhere)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 ![image](https://github.com/user-attachments/assets/4db4db94-795e-4657-9f07-0c7d6b2f4fac)
 
@@ -60,7 +60,7 @@ Retrieval: The vector store is loaded and configured as a retriever to fetch the
 Generation: A language model is loaded with specific configurations, and a prompt template is defined. The language model and retriever are combined into a RetrievalQA chain to generate responses based on the retrieved context. A sample query demonstrates the system's ability to produce relevant answers
 
 ## Rag using Parent Document Retriever (PC Rag)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](linktobementionedhere)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 ![image](https://github.com/user-attachments/assets/248aaf33-8dcd-4000-a6b6-fe1614a57d0e)
 
