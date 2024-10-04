@@ -95,5 +95,14 @@ The results from experiments conducted on four diverse datasets demonstrate CRAG
 
 
 
+##  Adaptive-RAG 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
+![image](https://github.com/user-attachments/assets/f469ccce-8414-4987-8868-af7d0252c6b1)
+###### Image Source : (https://arxiv.org/pdf/2403.14403)
 
+Adaptive-RAG is a cutting-edge question-answering framework that optimizes response strategies based on the complexity of user queries. It intelligently categorizes prompts into three levels: no retrieval for simple queries, single-step retrieval for moderate complexity, and multi-step retrieval for complex inquiries. This dynamic approach ensures that each query is handled efficiently, significantly enhancing the overall user experience.
+
+The framework delivers substantial benefits, including improved efficiency and accuracy, which enable chatbots to provide faster and more reliable responses. This not only elevates user satisfaction but also offers developers a scalable and flexible solution capable of addressing a wide variety of queries. By adapting to the complexity of each prompt, Adaptive-RAG empowers chatbots to effectively meet diverse user needs.
+
+Central to Adaptive-RAG is the Query Analysis component, serving as a classifier that routes prompts to the appropriate processing method. Based on its assessment, the model determines whether to leverage RAG for stored data or utilize alternative processes such as web searches. This modular design enhances the system's adaptability and efficiency, allowing for the integration of various language models tailored to specific prompt types. The accompanying flowchart illustrates this routing process, highlighting the multiple pathways that optimize query handling and improve overall performance.
