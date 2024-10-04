@@ -79,6 +79,21 @@ In the Retrieval stage, the vector store and retriever are set up, and documents
 The Generation stage involves loading a language model with CTransformers and defining a PromptTemplate for formatting queries. The PC RAG approach first uses the Parent Document Retriever to handle user queries. The chunks returned by the retriever are then processed by the generate_response function, which creates a base RAG on top of a parent-child RAG framework. This function retrieves, splits, and generates responses using the RetrievalQA chain. A sample query demonstrates the pipeline’s ability to produce relevant answers.
 
 
-###  CRAG
+##  Corrective Retrieval Augmented Generation (CRAG)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+![image](https://github.com/user-attachments/assets/493ef130-b949-4aef-bb2c-112313d4f2d9)
+
+###### Image Source : (https://arxiv.org/pdf/2401.15884)
+
+
+Corrective Retrieval Augmented Generation (CRAG) is a novel approach designed to enhance the robustness of generation tasks by addressing inaccuracies in document retrieval. At its core, CRAG incorporates a lightweight retrieval evaluator that assesses the relevance and reliability of retrieved documents, providing a confidence degree that triggers specific knowledge retrieval actions—Correct, Incorrect, or Ambiguous. By utilizing large-scale web searches, CRAG overcomes the limitations of static corpora, ensuring a more diverse and comprehensive set of information is available for generation.
+
+CRAG employs a decompose-then-recompose algorithm that refines the information extraction process, allowing the model to focus on key insights while filtering out irrelevant details. This methodology enhances the overall performance of Retrieval-Augmented Generation (RAG) systems by optimizing the utilization of retrieved documents. The retrieval evaluator plays a critical role in this process, as its accuracy significantly influences the effectiveness of the system.
+
+The results from experiments conducted on four diverse datasets demonstrate CRAG's adaptability and generalizability across both short- and long-form generation tasks. By seamlessly integrating with existing RAG-based approaches, CRAG serves as a plug-and-play solution that significantly improves automatic self-correction and the efficient use of retrieved documents, ultimately leading to more reliable and informative generation outcomes.
+
+
+
 
 
