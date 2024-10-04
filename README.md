@@ -74,7 +74,11 @@ In the Retrieval stage, the vector store and retriever are set up, and documents
 
 
 
-###  CRAG
+
 
 The Generation stage involves loading a language model with CTransformers and defining a PromptTemplate for formatting queries. The PC RAG approach first uses the Parent Document Retriever to handle user queries. The chunks returned by the retriever are then processed by the generate_response function, which creates a base RAG on top of a parent-child RAG framework. This function retrieves, splits, and generates responses using the RetrievalQA chain. A sample query demonstrates the pipeline’s ability to produce relevant answers.
+
+
+###  CRAG
+
 
