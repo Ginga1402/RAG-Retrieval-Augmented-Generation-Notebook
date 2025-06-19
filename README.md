@@ -149,17 +149,20 @@ We’d love for you to contribute and help make this project even better.
 
 If you have a new idea, want to add a notebook, fix something, or improve the docs — feel free to jump in!
 
-Here’s how:
+### Here’s how:
 
-Fork the repo
+- Fork the repo
 
-Create a new branch for your changes
+- Create a new branch for your changes
 
-Open a pull request with a short note about what you did
+- Open a pull request with a short note about what you did
 
-And if you're adding a notebook, just make sure it runs well and has a few helpful comments.
-Thanks for being here 🙌
+- And if you're adding a notebook, just make sure it runs well and has a few helpful comments.
 
+#### Thanks for being here 🙌
+---
 
+## License
 
+This project is licensed under the MIT License - see the LICENSE file for details.
 
