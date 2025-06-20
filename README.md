@@ -22,6 +22,10 @@ Whether you're new to RAG or looking to understand advanced workflows like Multi
 
 ---
 
+![image](https://github.com/user-attachments/assets/b8c08eff-888c-458f-a6de-8983d52696d5)
+
+###### Image Source: (https://miro.medium.com/v2/resize:fit:720/format:webp/1*392fzT_PzFtD-wFQlU8ITg.png)
+
 
 ## 🎯 Why RAG?
 
